@@ -1,0 +1,151 @@
+@font-face{
+  font-family: Poppins;
+  src: url(https://fonts.google.com/specimen/Poppins);
+}
+@font-face{
+  font-family: 'Open Sans';
+  src: url(https://fonts.google.com/specimen/Open+Sans);
+}
+body{
+  margin: 0px;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  
+}
+#layer-1 {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: #ffffff;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 4%;
+  margin-bottom: 100px;
+}
+.layer-1-up{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.top-right{
+  text-align: center;
+  float: right;
+  width: 200px;
+  border-radius: 100px;
+  background-color: white;
+  font-size: medium;
+  font-family: Poppings;
+  font-weight: 800;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.12);
+
+}
+.layer-1-down{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item-down {
+  flex: 1;
+}
+.layer-1-left {
+  display: block;
+  text-align: justify;
+  padding: 30% 0;
+  flex: 1;
+
+}
+.header-text{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Poppins;
+  text-align: start;
+  
+  
+}
+.body-text{
+  font-weight: 200;
+  text-align: start;
+  
+}
+.layer-1-right{
+  flex: 1.67;
+ }
+.layer-1-down img{
+  padding: 30px;
+  max-width: 96%;
+ 
+}
+.purple-bg {
+  color: white;
+  border: solid hsl(322, 100%, 66%) 10px ;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 100px;
+  text-align: center;
+  width: 200px;
+}
+.layer-2 {
+  margin:4%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.12);
+ 
+}
+.item-body{
+  flex: 1;
+  display: block;
+  margin: 5%;
+  
+}
+.layer-left{
+  padding: 20px 0px 0px 0px;
+  display: block;
+
+  /* padding: 4%; */
+  text-overflow: ellipsis;
+}
+.layer-right{
+  padding: 20px 0px 0px 0px;
+  display: block;
+
+}
+
+.item-body img{
+  float: right;
+  margin: auto;
+  height: 100%;
+  flex: 0.8;
+}
+
+.layer-left img{
+  float: left;
+  margin: auto;
+  height: 100%;
+}
+.before-footer{
+  z-index: 100;
+  position:relative;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0,0.12);
+  width: 45%;
+  background-color: #ffffff;
+  padding: 2%;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.footer-text-2{
+  color: white;
+  border: solid hsl(322, 100%, 66%) 10px ;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 100px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+.container{
+  background-color: hsl(192, 100%, 9%);
+  height: 200px;
+  margin-top: -90px;
+  z-index: -1;
+}
